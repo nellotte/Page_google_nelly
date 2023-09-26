@@ -1,0 +1,127 @@
+.nav {
+  display: flex;
+  justify-content: space-around;
+}
+
+// below is for demonstration purpose
+$height: 50px;
+$minWidth: 200px;
+
+.left, .middle, .right {
+  height: $height;
+  min-width: $minWidth;
+}
+
+.left {
+  background: #ffcdd2;
+}
+
+.middle {
+  background: #bbdefb;
+}
+
+.right {
+  font-size: 14px;
+  font-family: arial,sans-serif;
+}
+
+
+.logo_google {
+  text-align: center;
+  margin-top: 2%;
+}
+
+form{
+  position: relative;
+  margin-top: 20px;
+}
+
+.search {
+  display: flex;
+    z-index: 3;
+    min-height: 44px;
+    background: #fff;
+    border: 1px solid #dfe1e5;
+    box-shadow: none;
+    border-radius: 24px;
+    margin: 0 auto;
+    width: 500px
+  
+}
+
+
+.loupe {
+  width: 20px;
+  height: auto
+}
+
+.micro {
+  width: 15px;
+  height: auto
+}
+.container {
+  display: flex;
+  justify-content: center;
+
+}
+
+.element1, .element2 {
+  background-color: #f8f9fa;
+  border: 1px solid #f8f9fa;
+  border-radius: 4px;
+  color: #3c4043;
+  font-family: arial,sans-serif;
+  font-size: 14px;
+  margin: 11px 4px;
+  padding: 0 16px;
+  line-height: 27px;
+  height: 36px;
+  min-width: 54px;
+  text-align: center;
+
+}
+
+
+
+.nav_inf {
+  color: #70757a;
+  font-size: 14px;
+  font-family: arial,sans-serif;
+  background-color: #f2f2f3;
+
+ 
+}
+
+hr {
+  height: 1px;
+  background-color: #bab3b5;
+  border: none;
+}
+
+.climat {
+  text-align: center;
+  
+}
+
+.nav_footer {
+  display: flex;
+justify-content: space-around;
+}
+
+
+
+.a_propos, .publicite, .entreprise, .tuto_recherche, .inapproprié, .info_conso, .confidentialite, .conditions, .parametres {
+  text-decoration: none;
+  padding: 15px;
+  color: #707570
+
+}
+
+.derniere_ligne {
+  display: flex;
+  justify-content: center;
+}
+
+.nav_inf, .climat, .ligne_a_propos, .derniere_ligne{
+  padding: 15px;
+}
